@@ -1,0 +1,252 @@
+/*ESTILO 1*/
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILO 2*/
+header{
+    padding: 0px 0;
+    background-color: aquamarine;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 80px;
+}
+
+header nav li a{
+    color: rgb(4, 80, 4);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav li a:hover{
+    color: #4bf567;
+}
+
+/*ESTILO 3*/
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*ESTILO 4*/
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li button{
+    background-color: #c52014;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+
+button{
+    display: block;
+    width: 190px;
+    margin-bottom: -10px;
+    padding: 10px;
+    font-family: Helvetica, sans-serifia;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: #eaf73a;
+}
+
+/*corpo*/
+
+section h2,
+section h3,
+form button{
+    font-family: 'Acme', sans-serif; 
+    font-weight: normal;
+    font-size: 33px;
+}
+
+body, input, textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.brands-list img{
+    height: 250px;
+}
+
+.brands-list li,
+.accommodation-list{
+    display: inline;
+    margin-right: 8px;
+}
+
+
+section{
+    padding: 24px 0px;
+}
+
+section h2{
+    margin-top: -100px;
+    margin-bottom: 16px;
+    color: rgb(4, 80, 4);
+    
+}
+
+section{
+    color: rgb(4, 80, 4);
+}
+
+section p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.front-page{
+    margin-top: -24px;
+    margin-right: 32px
+}
+
+.texto-inicio{
+    padding: 150px;
+    margin-bottom: -100px;
+    text-align: center;
+}
+
+.texto-acomodação{
+    text-align: center;
+}
+
+.accommodation-list img{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 12px;
+}
+
+.accommodation-list li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.accommodation-list ul{
+    display: inline;
+    
+}
+
+.accommodation p {
+    margin-top: 50px;
+}
+
+.principal {
+    width: 500px;
+    margin-right: 30px;
+}
+
+.texto-acomodação{
+    margin-top: 100px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+form button{
+    background-color: aquamarine;
+    color: rgb(4, 80, 4);
+    border: none;
+    cursor: pointer;
+}
+
+
+
+textarea{
+    resize: none;
+}
+
+.rede-social{
+    list-style: none;
+    
+}
+
+.rede-social li {
+    display: inline;
+    margin-left: 50px;
+    font-size: 10px;
+}
+
+.rede-social li a {
+    text-decoration: none;
+    
+}
+
+.rede-social li img{
+    width: 50px;
+    height: auto;
+    margin-top: 200px;
+    display: inline;
+    margin-left: 100px;
+}
+
+.coctat-new, form{
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: -400px;
+    margin-bottom: 50px;
+}
+
+.coctat-new, h2{
+    margin-left: 110px;
+}
+
+
+.contact img{
+    width: 10px;
+    margin-right: 80px;
+    
+}
+
+.contact li{
+    display: inline;
+}
+
+.endereço{
+    margin-right: -220px;
+}
+
+.endereço, h3 {
+    margin-left: 610px;
+    margin-top: -100px;
+}
+
+.direitos{
+    padding: 0px 0;
+    background-color: aquamarine;
+    color: rgb(4, 80, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
